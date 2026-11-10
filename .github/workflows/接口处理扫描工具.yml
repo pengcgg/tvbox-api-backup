@@ -67,19 +67,35 @@ jobs:
           echo "=== tvbox/live/ 播放列表 ==="
           ls -la tvbox/live/ 2>/dev/null | head -20 || echo "无播放列表"
 
-      - name: 提交变更
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add -A
+      # - name: 提交变更
+        # run: |
+          # git config --local user.email "action@github.com"
+          # git config --local user.name "GitHub Action"
+          # git add -A
           # 仅在有变更时提交
-          if git diff --cached --quiet; then
-            echo "无变更，跳过提交"
-          else
-            COUNT=$(git diff --cached --numstat | wc -l)
-            echo "检测到 ${COUNT} 个文件变更，提交中..."
-            git commit -m "chore: 自动更新聚合接口 [$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M')]"
-            git push
-          fi
+          # if git diff --cached --quiet; then
+            # echo "无变更，跳过提交"
+          # else
+            # COUNT=$(git diff --cached --numstat | wc -l)
+            # echo "检测到 ${COUNT} 个文件变更，提交中..."
+            # git commit -m "chore: 自动更新聚合接口 [$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M')]"
+            # git push
+          # fi
+     - name: 提交变更
+       run: |
+         git config --local user.email "action@github.com"
+         git config --local user.name "GitHub Action"
+         git add -A
+         # 仅在有变更时提交
+         if git diff --cached --quiet; then
+           echo "无变更，跳过提交"
+         else
+           COUNT=$(git diff --cached --numstat | wc -l)
+           echo "检测到 ${COUNT} 个文件变更，提交中..."
+           git commit -m "chore: 自动更新聚合接口 [$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M')]"
+           echo "远程地址："
+           git remote -v
+           git push origin HEAD:${{ github.ref_name }}
+         fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
