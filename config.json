@@ -43,7 +43,7 @@
   },
 
   "apiDomains": [
-    { "tag": "备份线路", "base": "https://此处需站长更改自定义域名.com/tvbox/" }
+    { "tag": "备份线路", "base": "https://gh-proxy.com/raw.githubusercontent.com/pengcgg/iptv-fu/refs/heads/main/tvbox/" }
   ],
 
   "liveDomains": [
