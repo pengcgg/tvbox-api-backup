@@ -43,7 +43,8 @@
   },
 
   "apiDomains": [
-    { "tag": "备份线路", "base": "https://gh-proxy.com/raw.githubusercontent.com/pengcgg/tvbox-api-backup/refs/heads/main/tvbox/" }
+    { "tag": "备份线路", "base": "https://gh-proxy.com/raw.githubusercontent.com/pengcgg/tvbox-api-backup/refs/heads/main/tvbox/" },
+    { "tag": "备份线路", "base": "" }
   ],
 
   "liveDomains": [
