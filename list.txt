@@ -44,6 +44,8 @@ FongMI线路.json|20261111|9.2K|https://gh-proxy.com/raw.githubusercontent.com//
 高天流云_XYQ.json|20261111|19.6K|https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/XYQ.json
 凯弟1线.json|20261111|20.9K|https://jihulab.com/jyqhkd1/kai/-/raw/main/机缘巧盒凯弟.json
 肥猫.json|20261111|15.8K|http://肥猫.net
+摸鱼1线.json|20261111|29.2K|http://www.y456y.com
+摸鱼2线.json|20261111|29.2K|http://fish.y456y.com
 X4更新专用接口.json|20261102|4.4K|https://0.wudaozhe.net/0/666
 X4菠菜pro.json|20261102|68.4K|https://0.wudaozhe.net/5/x4pro.json
 X4菠菜园.json|20261102|50.3K|https://0.wudaozhe.net/5/x4.json
