@@ -1,6 +1,6 @@
 裤佬线路.json|20261111|5.3K|https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg
 幸福年年.json|20261111|43.1K|http://150.158.52.248/tgyg/bbm.json
-宝盒.json|20261111|25.0K|http://宝盒接口.top
+宝盒.json|20261111|24.2K|http://宝盒接口.top
 饭太硬.json|20261111|16.4K|http://www.饭太硬.net/tv
 饭太硬2线.json|20261111|16.4K|http://www.饭太硬.cc/tv
 饭太硬3线.json|20261111|16.4K|http://www.饭太硬.art/tv
@@ -43,8 +43,8 @@ FongMI线路.json|20261111|9.2K|https://gh-proxy.com/raw.githubusercontent.com//
 高天流云js.json|20261111|100.1K|https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/js.json
 高天流云_XYQ.json|20261111|19.6K|https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/XYQ.json
 凯弟1线.json|20261111|20.9K|https://jihulab.com/jyqhkd1/kai/-/raw/main/机缘巧盒凯弟.json
+肥猫.json|20261111|15.8K|http://肥猫.net
 X4更新专用接口.json|20261102|4.4K|https://0.wudaozhe.net/0/666
 X4菠菜pro.json|20261102|68.4K|https://0.wudaozhe.net/5/x4pro.json
 X4菠菜园.json|20261102|50.3K|https://0.wudaozhe.net/5/x4.json
 X4少儿频道.json|20261102|19.2K|https://0.wudaozhe.net/5/tv少儿.json
-肥猫.json|20261102|14.7K|http://肥猫.net/tv

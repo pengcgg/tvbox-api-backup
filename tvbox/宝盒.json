@@ -1,5 +1,5 @@
 {
-  "spider": "https://raw.giteeusercontent.com/KYSY1/dyy/raw/master/261106.jar",
+  "spider": "https://raw.giteeusercontent.com/KYSY1/dyy/raw/master/bh0822.jar",
   "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
   "logo": "https://img.fy6b.com/2024/07/15/161bacbec4079.png",
   "lives": [
@@ -51,45 +51,6 @@
       "jar": "https://gitee.com/KYSY1/dyy/raw/master/bh2601251.jar",
       "searchable": 0,
       "changeable": 1
-    },
-    {
-      "name": "杜北┃零一",
-      "key": "Dubk",
-      "type": 3,
-      "api": "csp_DubkAmns",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "http:///Dubk"
-    },
-    {
-      "name": "瓜子┃秒播",
-      "key": "Guazi",
-      "type": 3,
-      "api": "csp_GuaziAmns",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "http:///Guazi"
-    },
-    {
-      "name": "金牌┃秒播",
-      "key": "JinPai",
-      "type": 3,
-      "api": "csp_JinPaiAmns",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1
-    },
-    {
-      "name": "秋天┃秒播",
-      "key": "NewGrV2",
-      "type": 3,
-      "api": "csp_NewGrV2Amns",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "http:///NewGrV2"
     },
     {
       "key": "天天",
