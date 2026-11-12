@@ -49,11 +49,11 @@
 
   "liveDomains": [
     { "tag": "备份线路", "base": "https://tvbox.pengc.de5.net/tvbox/live/" },
-    { "tag": "备份线路", "base": "https://gh-proxy.com/raw.githubusercontent.com/pengcgg/tvbox-api-backup/refs/heads/main/tvbox/live/" }
+    { "tag": "仓库备份线路", "base": "https://gh-proxy.com/raw.githubusercontent.com/pengcgg/tvbox-api-backup/refs/heads/main/tvbox/live/" }
   ],
 
   "apiWeights": {
-    "轮替占位.json": 1, "神马都没有.json": 2, "饭太硬.json": 4, "肥猫.json": 5,
+    "轮替占位.json": 1, "X4.json": 2, "饭太硬.json": 4, "肥猫.json": 5,
     "摸鱼.json": 6, "王二小.json": 7, "集多.json": 8, "潇洒.json": 9, "小米.json": 10,
     "嗷呜.json": 11, "南风.json": 12, "幸福年年.json": 13
   },
@@ -77,7 +77,7 @@
 
   "liveAggregate": {
     "title": "海量直播聚合多线路专用接口",
-    "url": "https://此处需站长更改自定义域名.com/tvbox/海量直播聚合接口.json"
+    "url": "https://tvbox.pengc.de5.net/tvbox/海量直播聚合接口.json"
   },
 
   "downloadSources": [
