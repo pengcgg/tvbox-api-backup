@@ -79,7 +79,7 @@ jobs:
             COUNT=$(git diff --cached --numstat | wc -l)
             echo "检测到 ${COUNT} 个文件变更，提交中..."
             git commit -m "chore: 自动更新聚合接口 [$(TZ='Asia/Shanghai' date '+%Y-%m-%d %H:%M')]"
-            git push
+            git push  --force-with-lease origin main
           fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
