@@ -1,18 +1,18 @@
 {
   "site": {
-    "title": "TVbox海量接口",
+    "title": "海量接口搬运备份",
     "logo": "vip/jueson.jpg",
     "subtitle": "备用数据源，防屏不迷路",
     "qqText": "猛戳这里加入QQ群: ",
     "qqHighlight": "点击",
     "qqUrl": "./社群推荐",
-    "footer": "所有资源均来自互联网，版权归原作者所有。",
+    "footer": "本站接口资源由【误道者】整理。所有资源均来自互联网，版权归原作者所有。仅供测试学习使用，请勿用于违法及商业用途，请勿付费购买。如涉及侵权，请联系删除。",
     "enableGuide": false
   },
   "shgroups": "cy/社群推荐.json",
   "about": {
     "domains": "cy/站点域名分组.json",
-    "declaration": "所有资源均来自互联网，版权归原作者所有。仅供测试学习使用，请勿用于违法及商业用途，请勿付费购买。如涉及侵权，请联系删除。",
+    "declaration": "本站接口资源由【误道者】整理。所有资源均来自互联网，版权归原作者所有。仅供测试学习使用，请勿用于违法及商业用途，请勿付费购买。如涉及侵权，请联系删除。",
     "contributorsNote": "* 还有部分贡献者因未留下署名信息而未在此列出，同样感谢你们的默默付出。如有遗漏请联系站长补充。",
     "contributors": [
       { "name": "误道者", "role": "站长 / 资源整理", "desc": "站点发起与接口资源整理", "avatar": "vip/jueson.jpg" },
@@ -23,7 +23,7 @@
       { "icon": "vip/qq.svg", "label": "加入Q群", "url": "./qq" },
       { "icon": "vip/wc.svg", "label": "微信赞赏", "type": "modal", "title": "微信赞赏码", "image": "vip/zsm.jpg", "tip": "感谢认可，你的每一次赞赏，都是我坚持的底气，万分感谢陪伴" },
       { "icon": "vip/tg.svg", "label": "TG群组", "url": "https://t.me/tg6603" },
-      { "icon": "vip/gh.svg", "label": "GitHub", "url": "https://github.com/pengcgg/tvbox-api-backup" }
+      { "icon": "vip/gh.svg", "label": "GitHub", "url": "https://github.com/lubin776/tvbox-api-backup" }
     ]
   },
 
@@ -43,12 +43,11 @@
   },
 
   "apiDomains": [
-    { "tag": "备份线路", "base": "https://gh-proxy.com/raw.githubusercontent.com/pengcgg/tvbox-api-backup/refs/heads/main/tvbox/" },
-    { "tag": "分流线路", "base": "" }
+    { "tag": "备份线路", "base": "https://此处需站长更改自定义域名.com/tvbox/" }
   ],
 
   "liveDomains": [
-    { "tag": "备份线路", "base": "https://gh-proxy.com/raw.githubusercontent.com/pengcgg/tvbox-api-backup/refs/heads/main/tvbox/live/" }
+    { "tag": "备份线路", "base": "https://此处需站长更改自定义域名.com/tvbox/live/" }
   ],
 
   "apiWeights": {
@@ -76,7 +75,7 @@
 
   "liveAggregate": {
     "title": "海量直播聚合多线路专用接口",
-    "url": "https://gh-proxy.com/raw.githubusercontent.com/pengcgg/tvbox-api-backup/refs/heads/main/tvbox/海量直播聚合接口.json"
+    "url": "https://此处需站长更改自定义域名.com/tvbox/海量直播聚合接口.json"
   },
 
   "downloadSources": [

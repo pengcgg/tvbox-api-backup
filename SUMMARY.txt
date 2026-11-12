@@ -1,10 +1,30 @@
-TVBox 接口抓取报告  20261112_063654
+TVBox 接口抓取报告  20261102_003004
 ==============================================================
+
+[X4更新专用接口] okhttp/3.15
+  状态: JSON
+  文件: tvbox/X4更新专用接口.json
+  成功URL: https://0.wudaozhe.net/0/666
+
+[X4菠菜pro] okhttp/3.15
+  状态: JSON
+  文件: tvbox/X4菠菜pro.json
+  成功URL: https://0.wudaozhe.net/5/x4pro.json
 
 [裤佬线路] okhttp/3.15
   状态: JSON
   文件: tvbox/裤佬线路.json
   成功URL: https://raw.githubusercontent.com/Jsnzkpg/Jsnzkpg/Jsnzkpg/Jsnzkpg
+
+[X4菠菜园] okhttp/3.15
+  状态: JSON
+  文件: tvbox/X4菠菜园.json
+  成功URL: https://0.wudaozhe.net/5/x4.json
+
+[X4少儿频道] okhttp/3.15
+  状态: JSON
+  文件: tvbox/X4少儿频道.json
+  成功URL: https://0.wudaozhe.net/5/tv少儿.json
 
 [幸福年年] okhttp/3.15
   状态: JSON
@@ -16,10 +36,10 @@ TVBox 接口抓取报告  20261112_063654
   文件: tvbox/宝盒.json
   成功URL: http://宝盒接口.top
 
-[饭太硬] 
-  状态: FAILED
-  文件: None
-  成功URL: 
+[饭太硬] okhttp/3.15
+  状态: JSON
+  文件: tvbox/饭太硬.json
+  成功URL: http://www.饭太硬.net/tv
 
 [饭太硬2线] okhttp/3.15
   状态: JSON
@@ -30,6 +50,11 @@ TVBox 接口抓取报告  20261112_063654
   状态: JSON
   文件: tvbox/饭太硬3线.json
   成功URL: http://www.饭太硬.art/tv
+
+[饭太硬4线] 
+  状态: FAILED
+  文件: None
+  成功URL: 
 
 [饭太硬5线] okhttp/3.15
   状态: JSON
@@ -59,7 +84,12 @@ TVBox 接口抓取报告  20261112_063654
 [肥猫] okhttp/3.15
   状态: JSON
   文件: tvbox/肥猫.json
-  成功URL: http://肥猫.net
+  成功URL: http://肥猫.net/tv
+
+[肥猫2线] 
+  状态: FAILED
+  文件: None
+  成功URL: 
 
 [王二小] okhttp/3.15
   状态: JSON
@@ -76,19 +106,49 @@ TVBox 接口抓取报告  20261112_063654
   文件: tvbox/王二小3线.json
   成功URL: http://tvbox.王二小放牛娃.top
 
+[集多] 
+  状态: FAILED
+  文件: None
+  成功URL: 
+
+[集多2线] 
+  状态: FAILED
+  文件: None
+  成功URL: 
+
+[集多3线] 
+  状态: FAILED
+  文件: None
+  成功URL: 
+
 [摸鱼] okhttp/3.15
   状态: JSON
   文件: tvbox/摸鱼.json
   成功URL: http://我不是.摸鱼儿.top
 
-[摸鱼1线] okhttp/3.15
+[摸鱼2线] 
+  状态: FAILED
+  文件: None
+  成功URL: 
+
+[摸鱼3线] okhttp/3.15
   状态: JSON
-  文件: tvbox/摸鱼1线.json
+  文件: tvbox/摸鱼3线.json
+  成功URL: http://我不是.摸鱼儿.top
+
+[摸鱼4线] 
+  状态: FAILED
+  文件: None
+  成功URL: 
+
+[摸鱼5线] okhttp/3.15
+  状态: JSON
+  文件: tvbox/摸鱼5线.json
   成功URL: http://www.y456y.com
 
-[摸鱼2线] okhttp/3.15
+[摸鱼6线] okhttp/3.15
   状态: JSON
-  文件: tvbox/摸鱼2线.json
+  文件: tvbox/摸鱼6线.json
   成功URL: http://fish.y456y.com
 
 [南风] okhttp/3.15
@@ -106,10 +166,25 @@ TVBox 接口抓取报告  20261112_063654
   文件: tvbox/潇洒.json
   成功URL: https://9877.kstore.space/sun.json
 
+[潇洒5线] 
+  状态: FAILED
+  文件: None
+  成功URL: 
+
+[潇洒3线] 
+  状态: FAILED
+  文件: None
+  成功URL: 
+
 [嗨哥魔改] okhttp/3.15
   状态: TEXT
   文件: tvbox/嗨哥魔改.json
   成功URL: https://api.hgyx.vip/hgyx.json
+
+[讴歌] 
+  状态: FAILED
+  文件: None
+  成功URL: 
 
 [香雅情] okhttp/3.15
   状态: JSON
@@ -130,6 +205,11 @@ TVBox 接口抓取报告  20261112_063654
   状态: JSON
   文件: tvbox/小马.json
   成功URL: https://szyyds.cn/tv/x.json
+
+[驸马] 
+  状态: FAILED
+  文件: None
+  成功URL: 
 
 [周J] okhttp/3.15
   状态: JSON
@@ -196,6 +276,16 @@ TVBox 接口抓取报告  20261112_063654
   文件: tvbox/聚玩.json
   成功URL: http://xhztv.top/xhz
 
+[道长] 
+  状态: FAILED
+  文件: None
+  成功URL: 
+
+[小苹果] 
+  状态: FAILED
+  文件: None
+  成功URL: 
+
 [哈吉米] okhttp/3.15
   状态: JSON
   文件: tvbox/哈吉米.json
@@ -210,6 +300,11 @@ TVBox 接口抓取报告  20261112_063654
   状态: JSON
   文件: tvbox/动漫.json
   成功URL: https://www.yingm.cc/dm/dm.json
+
+[短剧] 
+  状态: FAILED
+  文件: None
+  成功URL: 
 
 [小虎斑] okhttp/3.15
   状态: TEXT
@@ -236,6 +331,16 @@ TVBox 接口抓取报告  20261112_063654
   文件: tvbox/FongMI线路.json
   成功URL: https://gh-proxy.com/raw.githubusercontent.com//gaotianliuyun/gao/master/0827.json
 
+[巧计线路] 
+  状态: FAILED
+  文件: None
+  成功URL: 
+
+[欧歌4K] 
+  状态: FAILED
+  文件: None
+  成功URL: 
+
 [高天流云js] okhttp/3.15
   状态: JSON
   文件: tvbox/高天流云js.json
@@ -245,6 +350,21 @@ TVBox 接口抓取报告  20261112_063654
   状态: JSON
   文件: tvbox/高天流云_XYQ.json
   成功URL: https://gh-proxy.com/raw.githubusercontent.com/gaotianliuyun/gao/master/XYQ.json
+
+[影探线路] 
+  状态: FAILED
+  文件: None
+  成功URL: 
+
+[无意线路] 
+  状态: FAILED
+  文件: None
+  成功URL: 
+
+[凯弟2线] 
+  状态: FAILED
+  文件: None
+  成功URL: 
 
 [凯弟1线] okhttp/3.15
   状态: JSON
