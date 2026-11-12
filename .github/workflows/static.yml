@@ -10,7 +10,6 @@ permissions:
   pages: write
   id-token: write
 
-# 共用并发组，自动更新脚本完成后才执行发布，串行防乱序
 concurrency:
   group: "tvbox-repo-write"
   cancel-in-progress: false
@@ -25,11 +24,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
       - name: Setup Pages
-        uses: actions/configure-pages@983d7736d9b082509a8c86d1853e870b420fbb4b
+        uses: actions/configure-pages@v5
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@56617c122f24317d087b487475f86a205c65d06e
+        uses: actions/upload-pages-artifact@v3
         with:
           path: './web'
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aeea44d9f8d26b054a83
+        uses: actions/deploy-pages@v5
