@@ -69,6 +69,10 @@
     ["影探线路", "http://www.lyyytv.cn/yt/yt.json"],
     ["无意线路", "https://www.wya6.cn/tv/yc.json"],
     ["凯弟2线", "http://rihou.vip:55/天天开心"],
+    ["X4更新专用接口", "https://0.wudaozhe.net/0/666"],
+    ["X4菠菜pro", "https://0.wudaozhe.net/5/x4pro.json"],
+    ["X4菠菜园", "https://0.wudaozhe.net/5/x4.json"],
+    ["X4少儿频道", "https://0.wudaozhe.net/5/tv少儿.json"],
     ["凯弟1线", "https://jihulab.com/jyqhkd1/kai/-/raw/main/机缘巧盒凯弟.json"]
   ],
   "API_MIRRORS": {
