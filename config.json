@@ -20,7 +20,7 @@
       { "icon": "vip/qq.svg", "label": "加入Q群", "url": "./qq" },
       { "icon": "vip/wc.svg", "label": "微信赞赏", "type": "modal", "title": "微信赞赏码", "image": "vip/zsm.jpg", "tip": "感谢认可，你的每一次赞赏，都是我坚持的底气，万分感谢陪伴" },
       { "icon": "vip/tg.svg", "label": "TG群组", "url": "https://t.me/tg6603" },
-      { "icon": "vip/gh.svg", "label": "GitHub", "url": "https://github.com/lubin776/tvbox-api-backup" }
+      { "icon": "vip/gh.svg", "label": "GitHub", "url": "https://github.com/pengcgg/tvbox-api-backup" }
     ]
   },
 
