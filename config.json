@@ -3,9 +3,6 @@
     "title": "TVbox海量接口",
     "logo": "vip/jueson.jpg",
     "subtitle": "获取数据源，不迷路",
-    "qqText": "猛戳这里加入QQ群: ",
-    "qqHighlight": "点击",
-    "qqUrl": "./社群推荐",
     "footer": "TVbox 影视接口每天自动更新一次，获取最新接口",
     "enableGuide": false
   },
