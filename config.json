@@ -43,11 +43,13 @@
   },
 
   "apiDomains": [
-    { "tag": "备份线路", "base": "https://tvbox.pengc.de5.net/tvbox/" }
+    { "tag": "备份线路", "base": "https://tvbox.pengc.de5.net/tvbox/" },
+    { "tag": "仓库备份线路", "base": "https://gh-proxy.com/raw.githubusercontent.com/pengcgg/tvbox-api-backup/refs/heads/main/tvbox/" }
   ],
 
   "liveDomains": [
-    { "tag": "备份线路", "base": "https://tvbox.pengc.de5.net/tvbox/live/" }
+    { "tag": "备份线路", "base": "https://tvbox.pengc.de5.net/tvbox/live/" },
+    { "tag": "备份线路", "base": "https://gh-proxy.com/raw.githubusercontent.com/pengcgg/tvbox-api-backup/refs/heads/main/tvbox/live/" }
   ],
 
   "apiWeights": {
