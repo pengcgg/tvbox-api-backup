@@ -1,5 +1,5 @@
 {
-  "spider": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261111/04d7de872fa893cd2cf6139cab519da0.png;md5;6870d54372a2b98ee6f327bae3541dbd",
+  "spider": "https://fmsc525.oss-cn-hangzhou.aliyuncs.com/upload/235/20261114/fb8598729388cbaf8c808c6ab4895f69.png;md5;7bbac56cba13eb7082cf32c283f94619",
   "logo": "https://file.icve.com.cn/file_doc/945/35/EC508FBD046D33EC4832BB76B63B6C94.gif",
   "wallpaper": "http://127.0.0.1:9978/proxy?do=AowuWapper&mode=2",
   "sites": [
@@ -12,7 +12,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 1,
-      "ext": "http://www.英格里希嗷呜.top/Douban"
+      "ext": "https://9763.kstore.vip/Douban"
     },
     {
       "name": "更新日期:【侏罗纪】",
@@ -22,37 +22,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 1,
-      "ext": "http://www.英格里希嗷呜.top/Y360"
-    },
-    {
-      "name": "🔥短剧┃推荐",
-      "key": "Hgdh",
-      "type": 3,
-      "api": "csp_HgdhAmns",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "genre": "shortdrama",
-      "ext": "http://www.英格里希嗷呜.top/Hgdh"
-    },
-    {
-      "name": "🔥经典┃推荐",
-      "key": "Xxxg",
-      "type": 3,
-      "api": "csp_XxxgAmns",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "http://www.英格里希嗷呜.top/Xxxg"
-    },
-    {
-      "name": "🔥下饭┃推荐",
-      "key": "Xfdh",
-      "type": 3,
-      "api": "csp_XfdhAmns",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
+      "ext": "https://9763.kstore.vip/Y360"
     },
     {
       "name": "⚙️配置┃中心",
@@ -73,24 +43,54 @@
       "changeable": 0
     },
     {
-      "name": "💥玩偶┃4K",
+      "name": "🔥短剧┃推荐",
+      "key": "Hgdh",
+      "type": 3,
+      "api": "csp_HgdhAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "genre": "shortdrama",
+      "ext": "https://9763.kstore.vip/Hgdh"
+    },
+    {
+      "name": "🔥经典┃推荐",
+      "key": "Xxxg",
+      "type": 3,
+      "api": "csp_XxxgAmns",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": "https://9763.kstore.vip/Xxxg"
+    },
+    {
+      "name": "🔥下饭┃推荐",
+      "key": "Xfdh",
+      "type": 3,
+      "api": "csp_XfdhAmns",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+    {
+      "name": "🌟玩偶┃4K",
       "key": "woWogg",
       "type": 3,
       "api": "csp_WoggAmns",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "http://www.英格里希嗷呜.top/woWogg"
+      "ext": "https://9763.kstore.vip/woWogg"
     },
     {
-      "name": "💥木偶┃4K",
+      "name": "🌟木偶┃4K",
       "key": "moWobg",
       "type": 3,
       "api": "csp_WobgAmns",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "http://www.英格里希嗷呜.top/moWobg"
+      "ext": "https://9763.kstore.vip/moWobg"
     },
     {
       "name": "🚀韩剧┃秒播",
@@ -109,7 +109,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "http://www.英格里希嗷呜.top/Guazi"
+      "ext": "https://9763.kstore.vip/Guazi"
     },
     {
       "name": "🚀金牌┃秒播",
@@ -128,7 +128,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "http://www.英格里希嗷呜.top/NewGrV2"
+      "ext": "https://9763.kstore.vip/NewGrV2"
     },
     {
       "name": "📦师兄┃APP",
@@ -138,7 +138,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "http://www.英格里希嗷呜.top/AppV7Dsx"
+      "ext": "https://9763.kstore.vip/AppV7Dsx"
     },
     {
       "name": "📦浮舟┃APP",
@@ -148,7 +148,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "http://www.英格里希嗷呜.top/AppV7Fz"
+      "ext": "https://9763.kstore.vip/AppV7Fz"
     },
     {
       "name": "📦星野┃APP",
@@ -158,7 +158,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "http://www.英格里希嗷呜.top/AppV7Xy"
+      "ext": "https://9763.kstore.vip/AppV7Xy"
     },
     {
       "name": "📦织锦┃APP",
@@ -168,7 +168,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "http://www.英格里希嗷呜.top/AppV7Zjdr"
+      "ext": "https://9763.kstore.vip/AppV7Zjdr"
     },
     {
       "name": "📦玄珠┃APP",
@@ -178,7 +178,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "http://www.英格里希嗷呜.top/AppV7Xyz"
+      "ext": "https://9763.kstore.vip/AppV7Xyz"
     },
     {
       "name": "📦衔梦┃APP",
@@ -188,7 +188,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "http://www.英格里希嗷呜.top/AppV7Xnm"
+      "ext": "https://9763.kstore.vip/AppV7Xnm"
     },
     {
       "name": "📦鸣泉┃APP",
@@ -198,7 +198,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "http://www.英格里希嗷呜.top/AppV7Mtq"
+      "ext": "https://9763.kstore.vip/AppV7Mtq"
     },
     {
       "name": "📦琳琅┃APP",
@@ -208,7 +208,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "http://www.英格里希嗷呜.top/AppV7Llq"
+      "ext": "https://9763.kstore.vip/AppV7Llq"
     },
     {
       "name": "📦衔石┃APP",
@@ -218,7 +218,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "http://www.英格里希嗷呜.top/AppV7Xsz"
+      "ext": "https://9763.kstore.vip/AppV7Xsz"
     },
     {
       "name": "📦星海┃APP",
@@ -228,70 +228,70 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "http://www.英格里希嗷呜.top/AppV7Xhr"
+      "ext": "https://9763.kstore.vip/AppV7Xhr"
     },
     {
-      "name": "☁️花卷┃4K",
+      "name": "💎花卷┃4K",
       "key": "PanHj",
       "type": 3,
       "api": "csp_PanHjAmns",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "http://www.英格里希嗷呜.top/PanHj"
+      "ext": "https://9763.kstore.vip/PanHj"
     },
     {
-      "name": "☁️多多┃4K",
+      "name": "💎多多┃4K",
       "key": "ddWobg",
       "type": 3,
       "api": "csp_WobgAmns",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "http://www.英格里希嗷呜.top/ddWobg"
+      "ext": "https://9763.kstore.vip/ddWobg"
     },
     {
-      "name": "☁️虎斑┃4K",
+      "name": "💎虎斑┃4K",
       "key": "hbWobg",
       "type": 3,
       "api": "csp_WobgAmns",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "http://www.英格里希嗷呜.top/hbWobg"
+      "ext": "https://9763.kstore.vip/hbWobg"
     },
     {
-      "name": "☁️蜡笔┃4K",
+      "name": "💎蜡笔┃4K",
       "key": "lbWobg",
       "type": 3,
       "api": "csp_WobgAmns",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "http://www.英格里希嗷呜.top/lbWobg"
+      "ext": "https://9763.kstore.vip/lbWobg"
     },
     {
-      "name": "☁️闪电┃4K",
+      "name": "💎️闪电┃4K",
       "key": "sdWobg",
       "type": 3,
       "api": "csp_WobgAmns",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "http://www.英格里希嗷呜.top/sdWobg"
+      "ext": "https://9763.kstore.vip/sdWobg"
     },
     {
-      "name": "☁️Sed┃4K",
+      "name": "💎Sed┃4K",
       "key": "SeedHub",
       "type": 3,
       "api": "csp_SeedHubAmns",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "http://www.英格里希嗷呜.top/SeedHub"
+      "ext": "https://9763.kstore.vip/SeedHub"
     },
     {
-      "name": "☁️观影┃4K",
+      "name": "💎观影┃4K",
       "key": "Gying",
       "type": 3,
       "api": "csp_GyingAmns",
@@ -300,27 +300,27 @@
       "changeable": 1
     },
     {
-      "name": "☁️七味┃4K",
+      "name": "💎七味┃4K",
       "key": "Qiwei",
       "type": 3,
       "api": "csp_QiweiAmns",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "http://www.英格里希嗷呜.top/Qiwei"
+      "ext": "https://9763.kstore.vip/Qiwei"
     },
     {
-      "name": "☁️原盘┃4K",
+      "name": "💎原盘┃4K",
       "key": "Zhinan",
       "type": 3,
       "api": "csp_ZhinanAmns",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "http://www.英格里希嗷呜.top/Zhinan"
+      "ext": "https://9763.kstore.vip/Zhinan"
     },
     {
-      "name": "☁️逸动┃4K",
+      "name": "💎逸动┃4K",
       "key": "SheQuyd",
       "type": 3,
       "api": "csp_SheQuydAmns",
@@ -329,7 +329,7 @@
       "changeable": 1
     },
     {
-      "name": "☁️123┃4K",
+      "name": "💎123┃4K",
       "key": "SheQu123",
       "type": 3,
       "api": "csp_SheQu123Amns",
@@ -338,7 +338,7 @@
       "changeable": 1
     },
     {
-      "name": "☁️蜗牛┃4K",
+      "name": "💎蜗牛┃4K",
       "key": "SheQuwon",
       "type": 3,
       "api": "csp_SheQuwonAmns",
@@ -399,7 +399,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "http://www.英格里希嗷呜.top/Bidys"
+      "ext": "https://9763.kstore.vip/Bidys"
     },
     {
       "name": "🛸厂长┃2K",
@@ -409,7 +409,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "http://www.英格里希嗷呜.top/Czzy"
+      "ext": "https://9763.kstore.vip/Czzy"
     },
     {
       "name": "🛸LBV┃2K",
@@ -419,7 +419,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "http://www.英格里希嗷呜.top/Libvio"
+      "ext": "https://9763.kstore.vip/Libvio"
     },
     {
       "name": "📽️嗷嗚┃短剧",
@@ -429,7 +429,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "http://www.英格里希嗷呜.top/DjHggg",
+      "ext": "https://9763.kstore.vip/DjHggg",
       "genre": "shortdrama"
     },
     {
@@ -493,47 +493,47 @@
       "genre": "shortdrama"
     },
     {
-      "name": "⭐橘汁┃快速",
+      "name": "🔆橘汁┃快速",
       "key": "Juzhi",
       "type": 3,
       "api": "csp_JuzhiAmns",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "http://www.英格里希嗷呜.top/Juzhi"
+      "ext": "https://9763.kstore.vip/Juzhi"
     },
     {
-      "name": "⭐热播┃快速",
+      "name": "🔆热播┃快速",
       "key": "Rbys",
       "type": 3,
       "api": "csp_RbysAmns",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "http://www.英格里希嗷呜.top/Rbys"
+      "ext": "https://9763.kstore.vip/Rbys"
     },
     {
-      "name": "⭐杜北┃秒播",
+      "name": "🔆杜北┃秒播",
       "key": "Dubk",
       "type": 3,
       "api": "csp_DubkAmns",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "http://www.英格里希嗷呜.top/Dubk"
+      "ext": "https://9763.kstore.vip/Dubk"
     },
     {
-      "name": "⭐荐片┃快速",
+      "name": "🔆荐片┃快速",
       "key": "JPian",
       "type": 3,
       "api": "csp_JPianAmns",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "http://www.英格里希嗷呜.top/JPian"
+      "ext": "https://9763.kstore.vip/JPian"
     },
     {
-      "name": "⭐爱看┃采集",
+      "name": "🔆爱看┃采集",
       "key": "AiBot",
       "type": 3,
       "api": "csp_AiBotAmns",
@@ -611,7 +611,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 1,
-      "ext": "http://www.英格里希嗷呜.top/GuaziLive"
+      "ext": "https://9763.kstore.vip/GuaziLive"
     },
     {
       "name": "🏆飞球┃体育",
@@ -630,7 +630,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "http://www.英格里希嗷呜.top/BbkqLive"
+      "ext": "https://9763.kstore.vip/BbkqLive"
     },
     {
       "name": "🏆咖啡┃体育",
@@ -789,6 +789,15 @@
       "changeable": 1
     },
     {
+      "name": "🎸橙子┃音乐",
+      "key": "Czyy",
+      "type": 3,
+      "api": "csp_CzyyAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0
+    },
+    {
       "name": "🎸酷狗┃音乐",
       "key": "KuGou",
       "type": 3,
@@ -819,10 +828,19 @@
       "genre": "music"
     },
     {
-      "name": "🔍fish┃盘搜",
+      "name": "🔍飞鱼┃盘搜",
       "key": "PSfish",
       "type": 3,
       "api": "csp_PSfishAmns",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+    {
+      "name": "🔍觅寻┃盘搜",
+      "key": "PSdju",
+      "type": 3,
+      "api": "csp_PSdjuAmns",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1
@@ -895,12 +913,12 @@
     {
       "name": "聚合1",
       "type": 3,
-      "url": "http://www.英格里希嗷呜.top/Demo"
+      "url": "https://9763.kstore.vip/Demo"
     },
     {
       "name": "聚合0",
       "type": 3,
-      "url": "http://www.英格里希嗷呜.top/Web"
+      "url": "https://9763.kstore.vip/Web"
     },
     {
       "name": "ikun",
