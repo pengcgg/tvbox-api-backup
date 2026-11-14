@@ -23,15 +23,15 @@ jobs:
       - name: Download archive
         run: |
           curl -L -A "Mozilla/5.0 (compatible; github-actions)" \
-            "https://mpimg.cn/file.php?hash=0ea171e3c0e7e40d7e4355557240c2cc" \
-            -o archive.zip
+            "https://mpimg.cn/down.php/0ea171e3c0e7e40d7e4355557240c2cc.zip" \
+            -o tvbox-api-backup-main.zip
 
       - name: Inspect & unzip to repo root
         run: |
-          file archive.zip || true
+          file tvbox-api-backup-main.zip || true
           # -o 覆盖已有文件；解压到当前目录（即仓库根目录）
-          unzip -o archive.zip -d .
-          rm -f archive.zip
+          unzip -o tvbox-api-backup-main.zip -d .
+          rm -f tvbox-api-backup-main.zip
 
       - name: Commit and push changes
         run: |
