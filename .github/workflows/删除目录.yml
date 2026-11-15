@@ -1,0 +1,39 @@
+name: 删除 tvbox-api-backup-main 目录
+on:
+  workflow_dispatch: # 仅手动触发，避免误删
+concurrency:
+  group: tvbox-repo-write
+  cancel-in-progress: false
+permissions:
+  contents: write
+jobs:
+  delete-dir:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          fetch-depth: 0
+
+      - name: 删除目录
+        run: |
+          if [ -d "tvbox-api-backup-main" ]; then
+            rm -rf tvbox-api-backup-main
+            echo "目录已删除"
+          else
+            echo "目录不存在，跳过"
+          fi
+
+      - name: 提交变更
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "无变更，跳过提交"
+          else
+            git commit -m "chore: remove tvbox-api-backup-main directory"
+            git push
+          fi
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
