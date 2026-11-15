@@ -44,7 +44,4 @@ FongMI线路.json|20261115|9.2K|https://gh-proxy.com/raw.githubusercontent.com//
 凯弟1线.json|20261115|20.9K|https://jihulab.com/jyqhkd1/kai/-/raw/main/机缘巧盒凯弟.json
 肥猫.json|20261115|15.8K|http://肥猫.net
 嗷呜3线.json|20261115|22.1K|http://itv666.cc/aowu/config.webp
-X4更新专用接口.json|20261102|4.4K|https://0.wudaozhe.net/0/666
-X4菠菜pro.json|20261102|68.4K|https://0.wudaozhe.net/5/x4pro.json
-X4菠菜园.json|20261102|50.3K|https://0.wudaozhe.net/5/x4.json
-X4少儿频道.json|20261102|19.2K|https://0.wudaozhe.net/5/tv少儿.json
+
