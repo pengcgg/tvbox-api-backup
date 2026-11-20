@@ -1202,6 +1202,14 @@
           "tag": "源地址",
           "url": "https://api.kkmh.com#yc1101",
           "id": 151
+        },
+        {
+          "name": "漫画集合",
+          "count": "cdn.jsdelivr.net",
+          "desc": "",
+          "tag": "源地址",
+          "url": "https://cdn.jsdelivr.net/gh/venera-app/venera-configs@main/index.json",
+          "id": 150
         }
   ]
 }
