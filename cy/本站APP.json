@@ -1,6 +1,6 @@
 {
   "title": "github仓库",
-  "description": "",
+  "description": "收集整理网络app资源",
   "items": [
     { "name": "接口大全", "url": "https://", "icon": "vip/jueson.jpg", "desc": "尚未建设完,敬请期待" }
   ]
