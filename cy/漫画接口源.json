@@ -1,4 +1,14 @@
 {
-  "title": "📖 漫画源收集",
-  "description": "共 151 个 Legado 漫画源（已剔除成人向）。使用方法：阅读3.0（Legado）→ 我的 → 书源管理 → 右上角菜单 → 网络导入 → 粘贴下面地址 → 确定。",
+  "title": "📖 漫画接口源收集",
+  "description": "使用方法：阅读3.0（Legado）→ 我的 → 书源管理 → 右上角菜单 → 网络导入 → 粘贴下面地址 → 确定。",
   "items": [
+            {
+             "name": "漫画集合",
+             "count": "cdn.jsdelivr.net",
+             "desc": "",
+             "tag": "源地址",
+             "url": "https://cdn.jsdelivr.net/gh/venera-app/venera-configs@main/index.json",
+             "id": 150
+              }
+            ]
+}
