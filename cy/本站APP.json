@@ -2,6 +2,6 @@
   "title": "github仓库",
   "description": "收集整理网络app资源",
   "items": [
-    { "name": "VeneraNext", "url": "https://github.com/CyrilPeng/Venera-Next", "icon": "vip/jueson.jpg", "desc": "VeneraNext 是一个跨平台漫画阅读器，支持本地漫画、WebDAV 漫画源、第三方网络漫画源，支持 Android、iOS、Windows、Linux、macOS 平台。" }
+    { "name": "VeneraNext", "url": "https://github.com/CyrilPeng/Venera-Next", "icon": "https://raw.githubusercontent.com/CyrilPeng/Venera-Next/main/assets/readme_logo.png", "desc": "VeneraNext 是一个跨平台漫画阅读器，支持本地漫画、WebDAV 漫画源、第三方网络漫画源，支持 Android、iOS、Windows、Linux、macOS 平台。" }
   ]
 }
