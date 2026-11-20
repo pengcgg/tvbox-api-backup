@@ -2,6 +2,6 @@
   "title": "github仓库",
   "description": "收集整理网络app资源",
   "items": [
-    { "name": "接口大全", "url": "https://", "icon": "vip/jueson.jpg", "desc": "尚未建设完,敬请期待" }
+    { "name": "VeneraNext", "url": "https://github.com/CyrilPeng/Venera-Next", "icon": "vip/jueson.jpg", "desc": "尚未建设完,敬请期待" }
   ]
 }
