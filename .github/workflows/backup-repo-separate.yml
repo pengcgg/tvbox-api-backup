@@ -43,7 +43,7 @@ jobs:
 
       - name: 克隆备份仓库，清理旧包
         run: |
-          git clone https://${{ secrets.BACKUP_PAT }}@github.com/${{ env.BACKUP_REPO }} backup-repo
+          git clone https://${{ secrets.xiaofu }}@github.com/${{ env.BACKUP_REPO }} backup-repo
           cd backup-repo
           cp ../${{ env.BACKUP_FILE }} ./
           ls -1 repo-backup_*.zip 2>/dev/null | sort | head -n -${{ env.RETENTION_COUNT }} | xargs -r rm -f
