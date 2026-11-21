@@ -1,4 +1,4 @@
-name: Backup Repo | 独立仓库+自动清旧+R2上传
+name: Backup Repo | 独立仓库+自动清旧
 on:
   schedule:
     - cron: '0 3 * * *'
@@ -8,10 +8,6 @@ on:
         description: 保留多少份备份
         default: '7'
         type: number
-      enable_r2:
-        description: 是否上传到Cloudflare R2
-        default: true
-        type: boolean
 
 concurrency:
   group: tvbox-repo-write
@@ -56,18 +52,3 @@ jobs:
             git commit -m "chore: 自动备份 ${{ env.BACKUP_FILE }}"
             git push
           fi
-
-      - name: 安装 rclone 用于上传 Cloudflare R2
-        if: ${{ github.event.inputs.enable_r2 != 'false' && secrets.R2_ACCESS_KEY_ID != '' }}
-        run: |
-          curl https://rclone.org/install.sh | sudo bash
-
-      - name: 上传备份包到 Cloudflare R2
-        if: ${{ github.event.inputs.enable_r2 != 'false' && secrets.R2_ACCESS_KEY_ID != '' }}
-        run: |
-          rclone config create r2remote s3 \
-            access_key_id ${{ secrets.R2_ACCESS_KEY_ID }} \
-            secret_access_key ${{ secrets.R2_SECRET_ACCESS_KEY }} \
-            endpoint ${{ secrets.R2_ENDPOINT }} \
-            acl private
-          rclone copy ${{ env.BACKUP_FILE }} r2remote:${{ secrets.R2_BUCKET }}/repo-backup/
