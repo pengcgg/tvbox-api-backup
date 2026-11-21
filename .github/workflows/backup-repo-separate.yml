@@ -33,7 +33,7 @@ jobs:
 
       - name: 打包全部文件（排除 .git）
         run: |
-          BACKUP_NAME="repo-backup_$(date '+%Y%m%d_%H%M%S').zip"
+          BACKUP_NAME="tvbox-api-backup_$(date '+%Y%m%d_%H%M%S').zip"
           zip -r "$BACKUP_NAME" . -x "./.git/*" "./.git"
           echo "BACKUP_FILE=$BACKUP_NAME" >> $GITHUB_ENV
 
