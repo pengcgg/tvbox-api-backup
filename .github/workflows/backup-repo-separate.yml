@@ -3,6 +3,15 @@ on:
   schedule:
     - cron: '0 3 * * *'
   workflow_dispatch:
+    inputs:
+      keep_count:
+        description: 保留多少份备份
+        default: '7'
+        type: number
+      enable_r2:
+        description: 是否上传到Cloudflare R2
+        default: true
+        type: boolean
 
 concurrency:
   group: tvbox-repo-write
@@ -12,13 +21,14 @@ permissions:
   contents: read
 
 env:
-  BACKUP_REPO: "pengcgg/backup-repo"  # 修改这里：用户名/备份仓库名
-  RETENTION_COUNT: 7  # 保留最近7个备份
+  BACKUP_REPO: "pengcgg/backup-repo"
   TZ: Asia/Shanghai
 
 jobs:
   backup:
     runs-on: ubuntu-latest
+    env:
+      RETENTION_COUNT: ${{ github.event.inputs.keep_count || 7 }}
     steps:
       - name: Checkout 源仓库
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
@@ -35,9 +45,7 @@ jobs:
         run: |
           git clone https://${{ secrets.BACKUP_PAT }}@github.com/${{ env.BACKUP_REPO }} backup-repo
           cd backup-repo
-          # 移入新备份包
           cp ../${{ env.BACKUP_FILE }} ./
-          # 按文件名排序，删除超过保留数量的旧zip
           ls -1 repo-backup_*.zip 2>/dev/null | sort | head -n -${{ env.RETENTION_COUNT }} | xargs -r rm -f
           git config --local user.name "GitHub Action"
           git config --local user.email "action@github.com"
@@ -50,11 +58,12 @@ jobs:
           fi
 
       - name: 安装 rclone 用于上传 Cloudflare R2
+        if: ${{ github.event.inputs.enable_r2 != 'false' && secrets.R2_ACCESS_KEY_ID != '' }}
         run: |
           curl https://rclone.org/install.sh | sudo bash
 
       - name: 上传备份包到 Cloudflare R2
-        if: ${{ secrets.R2_ACCESS_KEY_ID != '' }}
+        if: ${{ github.event.inputs.enable_r2 != 'false' && secrets.R2_ACCESS_KEY_ID != '' }}
         run: |
           rclone config create r2remote s3 \
             access_key_id ${{ secrets.R2_ACCESS_KEY_ID }} \
