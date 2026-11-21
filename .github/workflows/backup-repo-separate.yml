@@ -12,7 +12,7 @@ permissions:
   contents: read
 
 env:
-  BACKUP_REPO: "你的用户名/backup-repo"  # 修改这里：用户名/备份仓库名
+  BACKUP_REPO: "pengcgg/backup-repo"  # 修改这里：用户名/备份仓库名
   RETENTION_COUNT: 7  # 保留最近7个备份
   TZ: Asia/Shanghai
 
