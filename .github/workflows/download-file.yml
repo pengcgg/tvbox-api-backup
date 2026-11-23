@@ -1,0 +1,36 @@
+name: 手动下载文件到 vip 目录
+on:
+  workflow_dispatch:
+    inputs:
+      file_url:
+        description: 需要下载的文件链接
+        default: 'https://raw.githubusercontent.com/CyrilPeng/Venera-Next/main/assets/readme_logo.png'
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 拉取仓库代码
+        uses: actions/checkout@v4
+
+      - name: 创建 vip 目录
+        run: mkdir -p vip
+
+      - name: 下载文件到 vip
+        run: |
+          URL="${{ github.event.inputs.file_url }}"
+          FILENAME=$(basename "$URL")
+          wget -O "vip/$FILENAME" "$URL"
+
+      - name: 提交并推送
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add vip/
+          git commit -m "Auto download file: ${{ github.event.inputs.file_url }}" || echo "无文件变更，跳过提交"
+          git push
