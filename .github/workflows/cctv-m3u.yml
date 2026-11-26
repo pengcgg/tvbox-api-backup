@@ -43,7 +43,7 @@ jobs:
           OUT: 央视直播_10台.m3u
           ALIAS_OUT: cctv10.m3u
           JOBS: "3"
-        run: python /cctv_live.py
+        run: python cctv_live.py
 
       - name: 提交更新
         run: |
