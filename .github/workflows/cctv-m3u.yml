@@ -46,7 +46,7 @@ jobs:
       - name: 克隆目标仓库，上传 m3u 文件
         run: |
           # 克隆目标仓库
-          git clone https://${{ secrets.BACKUP_PAT }}@github.com/${{ secrets.BACKUP_REPO }} target-repo
+          git clone https://${{ secrets.xiaofu }}@github.com/${{ secrets.pengcgg/backup-repo }} target-repo
           cd target-repo
           # 复制生成好的两个m3u进去
           cp ../"央视直播_10台.m3u" ./
