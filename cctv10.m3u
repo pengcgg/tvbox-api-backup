@@ -1,22 +1,22 @@
 #EXTM3U
-# generated_at=2026-11-26 20:22:51  (auto-refreshed by GitHub Actions)
+# generated_at=2026-11-26 20:47:53  (auto-refreshed by GitHub Actions)
 #EXTINF:-1 tvg-name="CCTV-1 综合" tvg-chno="1" group-title="央视",CCTV-1 综合
-https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv1_mhd.m3u8?auth_key=1795749300-1-a9761b09bd4783d32925fc5566fc5ab6120f132ca0e10d686eef709178e4805d-2a945e85bb6277388f3a4652b2bab5dc&yid=a9761b09bd4783d32925fc5566fc5ab6120f132ca0e10d686eef709178e4805d
+https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv1_mhd.m3u8?auth_key=1795751100-1-9fedfee677aa79fab2fe59c97580c94152d7bdb63d0b17960ce862f4adb66dd2-c08c551c14ca122622a5239019c76d72&yid=9fedfee677aa79fab2fe59c97580c94152d7bdb63d0b17960ce862f4adb66dd2
 #EXTINF:-1 tvg-name="CCTV-2 财经" tvg-chno="2" group-title="央视",CCTV-2 财经
-https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv2_mhd.m3u8?auth_key=1795749300-1-a9761b09bd4783d32925fc5566fc5ab6120f132ca0e10d686eef709178e4805d-24bfc3804b5c7c06ddbff826a86bae0c&yid=a9761b09bd4783d32925fc5566fc5ab6120f132ca0e10d686eef709178e4805d
+https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv2_mhd.m3u8?auth_key=1795751100-1-9fedfee677aa79fab2fe59c97580c94152d7bdb63d0b17960ce862f4adb66dd2-eeabeaa6557664a02ec2b6ffd43eb2d8&yid=9fedfee677aa79fab2fe59c97580c94152d7bdb63d0b17960ce862f4adb66dd2
 #EXTINF:-1 tvg-name="CCTV-4 中文国际" tvg-chno="4" group-title="央视",CCTV-4 中文国际
-https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mhd.m3u8?auth_key=1795749300-1-a9761b09bd4783d32925fc5566fc5ab6120f132ca0e10d686eef709178e4805d-33d6e95b84a96f1974037d1404bf2c9d&yid=a9761b09bd4783d32925fc5566fc5ab6120f132ca0e10d686eef709178e4805d
+https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4_mhd.m3u8?auth_key=1795751100-1-9fedfee677aa79fab2fe59c97580c94152d7bdb63d0b17960ce862f4adb66dd2-c2535b337714e0244fb0cdbfbb0e23ed&yid=9fedfee677aa79fab2fe59c97580c94152d7bdb63d0b17960ce862f4adb66dd2
 #EXTINF:-1 tvg-name="CCTV-7 国防军事" tvg-chno="7" group-title="央视",CCTV-7 国防军事
-https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv7_mhd.m3u8?auth_key=1795749300-1-a9761b09bd4783d32925fc5566fc5ab6120f132ca0e10d686eef709178e4805d-17ea107f4d9e3bc4f9c97d096b106b65&yid=a9761b09bd4783d32925fc5566fc5ab6120f132ca0e10d686eef709178e4805d
+https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv7_mhd.m3u8?auth_key=1795751100-1-9fedfee677aa79fab2fe59c97580c94152d7bdb63d0b17960ce862f4adb66dd2-6c47805314b3071a3615d40387fe7af7&yid=9fedfee677aa79fab2fe59c97580c94152d7bdb63d0b17960ce862f4adb66dd2
 #EXTINF:-1 tvg-name="CCTV-9 纪录" tvg-chno="9" group-title="央视",CCTV-9 纪录
-https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv9_mhd.m3u8?auth_key=1795749300-1-a9761b09bd4783d32925fc5566fc5ab6120f132ca0e10d686eef709178e4805d-6bc6a230935e9ec2d1235040331693b9&yid=a9761b09bd4783d32925fc5566fc5ab6120f132ca0e10d686eef709178e4805d
+https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv9_mhd.m3u8?auth_key=1795751100-1-9fedfee677aa79fab2fe59c97580c94152d7bdb63d0b17960ce862f4adb66dd2-028dccd18a9b5776f20326d8911a9394&yid=9fedfee677aa79fab2fe59c97580c94152d7bdb63d0b17960ce862f4adb66dd2
 #EXTINF:-1 tvg-name="CCTV-10 科教" tvg-chno="10" group-title="央视",CCTV-10 科教
-https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv10_mhd.m3u8?auth_key=1795749300-1-a9761b09bd4783d32925fc5566fc5ab6120f132ca0e10d686eef709178e4805d-76edc46f0bc8e5be9967536ed91636e9&yid=a9761b09bd4783d32925fc5566fc5ab6120f132ca0e10d686eef709178e4805d
+https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv10_mhd.m3u8?auth_key=1795751100-1-9fedfee677aa79fab2fe59c97580c94152d7bdb63d0b17960ce862f4adb66dd2-378f5a1e41c9eccd0ef6fbf70e950813&yid=9fedfee677aa79fab2fe59c97580c94152d7bdb63d0b17960ce862f4adb66dd2
 #EXTINF:-1 tvg-name="CCTV-12 社会与法" tvg-chno="12" group-title="央视",CCTV-12 社会与法
-https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv12_mhd.m3u8?auth_key=1795749300-1-a9761b09bd4783d32925fc5566fc5ab6120f132ca0e10d686eef709178e4805d-0ff5ea52e029aee7083dbd1dd9177bd0&yid=a9761b09bd4783d32925fc5566fc5ab6120f132ca0e10d686eef709178e4805d
+https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv12_mhd.m3u8?auth_key=1795751100-1-9fedfee677aa79fab2fe59c97580c94152d7bdb63d0b17960ce862f4adb66dd2-6784fc33d19e0a6f0def868ca68af3e1&yid=9fedfee677aa79fab2fe59c97580c94152d7bdb63d0b17960ce862f4adb66dd2
 #EXTINF:-1 tvg-name="CCTV-13 新闻" tvg-chno="13" group-title="央视",CCTV-13 新闻
-https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv13_mhd.m3u8?auth_key=1795749300-1-a9761b09bd4783d32925fc5566fc5ab6120f132ca0e10d686eef709178e4805d-4ee348b74f5d7b84374e611f86438a36&yid=a9761b09bd4783d32925fc5566fc5ab6120f132ca0e10d686eef709178e4805d
+https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv13_mhd.m3u8?auth_key=1795751100-1-9fedfee677aa79fab2fe59c97580c94152d7bdb63d0b17960ce862f4adb66dd2-cee2bcce4e7a6a4fe2619c563f959d45&yid=9fedfee677aa79fab2fe59c97580c94152d7bdb63d0b17960ce862f4adb66dd2
 #EXTINF:-1 tvg-name="CCTV-17 农业农村" tvg-chno="17" group-title="央视",CCTV-17 农业农村
-https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv17_mhd.m3u8?auth_key=1795749300-1-a9761b09bd4783d32925fc5566fc5ab6120f132ca0e10d686eef709178e4805d-dedacecb75d5b02a8741a21a4d993a52&yid=a9761b09bd4783d32925fc5566fc5ab6120f132ca0e10d686eef709178e4805d
+https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv17_mhd.m3u8?auth_key=1795751100-1-9fedfee677aa79fab2fe59c97580c94152d7bdb63d0b17960ce862f4adb66dd2-4ea206e537aac93a4dd1bb71e680ff6f&yid=9fedfee677aa79fab2fe59c97580c94152d7bdb63d0b17960ce862f4adb66dd2
 #EXTINF:-1 tvg-name="CCTV-4I 超高清" tvg-chno="4I" group-title="央视",CCTV-4I 超高清
-https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4k_mhd.m3u8?auth_key=1795749300-1-a9761b09bd4783d32925fc5566fc5ab6120f132ca0e10d686eef709178e4805d-3a8d55b38fa62d9e9a8e91602949da62&yid=a9761b09bd4783d32925fc5566fc5ab6120f132ca0e10d686eef709178e4805d
+https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4k_mhd.m3u8?auth_key=1795751100-1-9fedfee677aa79fab2fe59c97580c94152d7bdb63d0b17960ce862f4adb66dd2-8d62fa6c7baa276f7095ae2ba161eae7&yid=9fedfee677aa79fab2fe59c97580c94152d7bdb63d0b17960ce862f4adb66dd2
