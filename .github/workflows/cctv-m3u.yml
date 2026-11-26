@@ -1,0 +1,61 @@
+name: 央视直播源自动刷新
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"     # UTC，北京 02/08/14/20 点
+  workflow_dispatch:          # 也能手动点一下立即刷新
+
+permissions:
+  contents: write             # 提交 m3u 回仓库必须要
+
+concurrency:
+  group: cctv-m3u-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: 缓存  浏览器
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-
+          key: -chromium-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
+
+      - name: 安装依赖
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          python -m  install --with-deps chromium
+
+      - name: 刷新鉴权并生成 m3u
+        env:
+          OUT: 央视直播_10台.m3u
+          ALIAS_OUT: cctv10.m3u
+          JOBS: "3"
+        run: python scripts/cctv_live.py
+
+      - name: 提交更新
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- "央视直播_10台.m3u" "cctv10.m3u"
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "chore: 刷新央视直播源 $(TZ=Asia/Shanghai date '+%Y-%m-%d %H:%M')"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: cctv-live-m3u
+          path: 央视直播_10台.m3u
